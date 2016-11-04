@@ -3,6 +3,7 @@ Fonts
 Droid Serif
 Droid Sans
 Droid Sans Mono
+
 Font Scaling
 6.854rem
 4.236rem
@@ -10,7 +11,9 @@ Font Scaling
 1.618rem
 1.0rem
 0.618rem
+
 Colour scheme
+
 **************************************************/
 @import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif';
 
@@ -23,15 +26,19 @@ html{
     font-size: 16px;
     line-height: 1.6;
     font-family: 'Droid Sans', 'more font stack stuff', sans-serif;
+    background-image: url(../images/fog-bg-img.jpg);
+    background-size: cover;
 }
 /*************************** 
 DEFAULTS - MOBILE FIRST 
 ***************************/
 h1{
     font: bold 4.236rem 'Droid Serif', 'more font stack stuff', serif;
+    color:  #A98AFF;
 }
 h2{
     font: bold 2.618rem 'Droid Serif', 'more font stack stuff', serif;
+    color: aliceblue;
 }
 li, p, a{
     font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
@@ -48,16 +55,33 @@ pre, code, kbd{
 }
 header{
     width: 100%;
+    background-image: url(../images/mountain-header.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 50px;
+    height: auto;
 }
+    p{
+    color: #A98AFF;
+        
+        
+    }
+         
+}
+
 nav{
     width: 100%;
 }
 nav>ul{
     width: 100%;
+    
 }
 nav li{
     width: 100%;
     list-style: none;
+    border: 1px solid white;
+     
 }
 nav a,
 nav a:link,
@@ -65,6 +89,8 @@ nav a:visited{
     display: block;
     font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
     text-align: center;
+    text-decoration: none;
+    color: #A98AFF;
 }
 nav a:active,
 nav a:focus,
@@ -97,3 +123,4 @@ footer{
 @media screen and (min-width: 1200px){
     
 }
+
