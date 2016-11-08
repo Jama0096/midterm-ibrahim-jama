@@ -39,9 +39,13 @@ h1{
 h2{
     font: bold 2.618rem 'Droid Serif', 'more font stack stuff', serif;
     color: aliceblue;
+    
 }
 li, p, a{
     font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+    text-decoration: none;
+    color: #A98AFF;
+    border: 1px;
 }
 pre, code, kbd{
     font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
@@ -62,12 +66,7 @@ header{
     min-height: 50px;
     height: auto;
 }
-    p{
-    color: #A98AFF;
-        
-        
-    }
-         
+      
 }
 
 nav{
@@ -80,7 +79,7 @@ nav>ul{
 nav li{
     width: 100%;
     list-style: none;
-    border: 1px solid white;
+    
      
 }
 nav a,
@@ -115,12 +114,105 @@ footer{
 }
 
 @media screen and (min-width:600px){
+/* Columns and Navigation
+   wrapper - 100%
+   header - 100%
+   nav - 90%
+   links - 20% of nav
+   main - 90%
+   columns - 50% of main
+   column image - 60% of column
+   footer - 90% */
+    
+    .wrapper{
+        width: 100%;
+        
+    }
+    
+     header{
+        width: 100%;
+    }
+    
+    nav{
+        width: 90%;
+    }
+    
+    nav li{
+        width: 20%;
+        float: left;
+        margin: auto;
+        
+    }
+    
+    main{
+        width: 90%;
+    }
+    
+    .col{
+        width: 50%;
+        width: calc(50%-2em);
+        float: left;
+        margin: 0 auto;
+    }
+    
+    .col img {
+        width: 60%;
+    }
+    
+    footer{
+        width: 90%;
+        clear: left;
+    }
+    
+    
+   
     
 }
 @media screen and (min-width: 800px){
     
+    header {
+      width: 100%;
+    }
+    
+    nav {
+      border: none;
+      margin: 0 auto;
+    }
+    
+    footer {
+      width: 100%
+    }
+    
+.col img {
+     width: 50%;
+}
+
+    
 }
 @media screen and (min-width: 1200px){
     
+    header {
+        width: 100%;
+    }
+    
+    nav {
+        float: left;
+        width: 30%;
+        
+    }
+    
+    nav li {
+        width: 100%;
+    }
+    
+    main {
+        float: left;
+        width: 70%;
+    }
+    
+    .col img {
+        width: 55%;
+    }
+    
+    
 }
-
