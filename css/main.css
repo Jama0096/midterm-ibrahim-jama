@@ -46,6 +46,8 @@ li, p, a{
     text-decoration: none;
     color: #A98AFF;
     border: 1px;
+    
+    
 }
 pre, code, kbd{
     font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
@@ -75,10 +77,14 @@ nav{
 nav>ul{
     width: 100%;
     
+    
 }
 nav li{
     width: 100%;
     list-style: none;
+    
+    
+    
     
      
 }
@@ -94,6 +100,7 @@ nav a:visited{
 nav a:active,
 nav a:focus,
 nav a:hover{
+    background-color:blueviolet;
     
 }
 main{
@@ -111,7 +118,21 @@ main{
 }
 footer{
     width: 100%;
+    background-image: url(../images/mountain-header.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 50px;
+    height: auto;
+
 }
+
+
+footer a:hover{
+    background-color: blueviolet;
+}
+
+
 
 @media screen and (min-width:600px){
 /* Columns and Navigation
@@ -142,6 +163,8 @@ footer{
         float: left;
         margin: auto;
         
+        
+      
     }
     
     main{
@@ -185,7 +208,10 @@ footer{
     
 .col img {
      width: 50%;
+     float: left;
 }
+    
+  
 
     
 }
@@ -203,6 +229,7 @@ footer{
     
     nav li {
         width: 100%;
+        
     }
     
     main {
@@ -212,6 +239,8 @@ footer{
     
     .col img {
         width: 55%;
+        float: left;
+        margin-right: auto;
     }
     
     
