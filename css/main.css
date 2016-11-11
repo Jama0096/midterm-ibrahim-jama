@@ -48,7 +48,7 @@ h2{
     
 }
 li, p, a{
-    font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+    font:  1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
     text-decoration: none;
     color: #A98AFF;
     border: 1px;
@@ -82,7 +82,7 @@ nav{
 }
 nav>ul{
     width: 100%;
-   
+    
    
     
     
@@ -91,7 +91,7 @@ nav>ul{
 nav li{
     width: 100%;
     list-style: none;
-    
+    border: 2px solid purple;
     
     
     
@@ -172,7 +172,8 @@ footer a:hover{
         margin: auto;
         list-style: none;
         display: block;
-        border: none;
+        border: 2px solid purple;
+       
         
         }
     
@@ -213,6 +214,10 @@ footer a:hover{
       
     }
     
+    nav li{
+        border: none;
+    }
+    
     footer {
       width: 100%
     }
@@ -241,6 +246,7 @@ footer a:hover{
     nav li {
         width: 100%;
         display: block;
+        border: none;
         
     }
     
