@@ -15,6 +15,7 @@ Font Scaling
 Colour scheme
 
 **************************************************/
+
 @import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif';
 
 * 
@@ -52,7 +53,6 @@ li, p, a{
     text-decoration: none;
     color: white;
     border: 1px;
-    list-style: none;
     
     
 }
@@ -200,6 +200,9 @@ footer a:hover{
         list-style: none;
     }
     
+    p{
+        font-size: 1.0rem;
+    }
     
    
     
@@ -228,6 +231,10 @@ footer a:hover{
      width: 50%;
      float: left;
 }
+    
+    p{
+        font-size: 1.618rem;
+    }
     
   
 
@@ -261,6 +268,10 @@ footer a:hover{
         width: 55%;
         float: left;
         margin-right: auto;
+    }
+    
+    p{
+        font-size: 1.618rem;
     }
     
     
