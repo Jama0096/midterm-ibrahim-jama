@@ -17,6 +17,8 @@ Colour scheme
 **************************************************/
 @import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif';
 
+* 
+
 *{
     padding: 0;
     margin: 0;
@@ -28,6 +30,8 @@ html{
     font-family: 'Droid Sans', 'more font stack stuff', sans-serif;
     background-image: url(../images/fog-bg-img.jpg);
     background-size: cover;
+    font-family: 'Droid Sans', 'Lato', 'Roboto', sans-serif;
+    
 }
 /*************************** 
 DEFAULTS - MOBILE FIRST 
@@ -35,10 +39,12 @@ DEFAULTS - MOBILE FIRST
 h1{
     font: bold 4.236rem 'Droid Serif', 'more font stack stuff', serif;
     color:  #A98AFF;
+    font: bold 'Droid Serif', 'Neuton', 'Lora', serif;
 }
 h2{
     font: bold 2.618rem 'Droid Serif', 'more font stack stuff', serif;
     color: aliceblue;
+    font: bold 'Droid Serif', 'Neuton', 'Lora', serif;
     
 }
 li, p, a{
@@ -76,6 +82,9 @@ nav{
 }
 nav>ul{
     width: 100%;
+   
+   
+    
     
     
 }
@@ -118,12 +127,11 @@ main{
 }
 footer{
     width: 100%;
-    background-image: url(../images/mountain-header.jpg);
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    min-height: 50px;
-    height: auto;
+    border-top: 3px solid blueviolet;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    text-align: center;
+    list-style: none;
 
 }
 
@@ -162,10 +170,12 @@ footer a:hover{
         width: 20%;
         float: left;
         margin: auto;
+        list-style: none;
+        display: block;
+        border: none;
         
-        
-      
-    }
+        }
+    
     
     main{
         width: 90%;
@@ -199,7 +209,8 @@ footer a:hover{
     
     nav {
       border: none;
-      margin: 0 auto;
+      margin: 0 auto; 
+      
     }
     
     footer {
@@ -229,6 +240,7 @@ footer a:hover{
     
     nav li {
         width: 100%;
+        display: block;
         
     }
     
