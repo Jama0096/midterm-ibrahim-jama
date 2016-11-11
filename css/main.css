@@ -196,6 +196,7 @@ footer a:hover{
     footer{
         width: 90%;
         clear: left;
+        list-style: none;
     }
     
     
